@@ -1,11 +1,10 @@
 package trpuppy
 
-import "fmt"
+func Bark() string {
+	return "Woof"
 
-func Bark() {
-	fmt.Println("Woof")
 }
 
-func Barks() {
-	fmt.Println("Woof, Woof, Woof")
+func Barks() string {
+	return "Woof, Woof, Woof"
 }
